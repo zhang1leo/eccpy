@@ -1,9 +1,11 @@
 # dependencies were based on Anaconda distribution 2020.07
 matplotlib==3.3.2
-numpy==1.19.1
+numpy==1.22.2
 openpyxl==3.0.5
 pandas==1.1.1
 pytest==6.0.2
-scipy==1.5.2
+scipy==1.10.0rc1
 xlrd==1.2.0
 xlutils==2.0.0
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
